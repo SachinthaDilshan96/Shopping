@@ -10,7 +10,7 @@ const Card=({item,handleClick})=>{
         <img className='imageitem' src={img} alt="No image"/>
       </div>
       <div className="details">
-        <p>{title}</p>
+        <a href={"/details/"+id} >{title}</a>
         <p>{description}</p>
         <p>{price}</p>
         <button onClick={()=>handleClick(item)} className='btn'>Add to Cart</button>

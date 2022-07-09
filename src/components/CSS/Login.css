@@ -1,0 +1,17 @@
+.formcontainer{
+    flex:1;
+    flex-direction:column;
+    margin-left: 35%;
+    align-items: center;
+}
+.header{
+    text-align: center;
+}
+.email{
+    flex:1;
+    width:100px
+}
+.password{
+    flex:1;
+    width:100px
+}
